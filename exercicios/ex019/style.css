@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'teste';
+    src: url(GloriaHallelujah-Regular.ttf) ;
+}
+body {
+   
+    font-family: 'teste';
+}
+
+h1 {
+ font-family: 'Times New Roman', Times, serif;
+}

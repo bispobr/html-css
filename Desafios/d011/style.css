@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(imagens/espaco.jpg);
+   
+}
+
+div#astro {
+    background-position: center center;
+    
+}
+
+img#tt{
+    background-position: center center;
+}
