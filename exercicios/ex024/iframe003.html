@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uso de iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur explicabo sint ex aut officia distinctio odit iusto praesentium nam, quibusdam aperiam dicta totam et provident saepe amet deleniti cumque perspiciatis!</p>
+    <ul>
+        <li><a href="paginas extras/pag001.html" target="frame">primeira pagina</a></li>
+        <li><a href="paginas extras/pag002.html" target="frame">Segunda pagina</a></li>
+        <li><a href="paginas extras/pag003.html " target="frame">Terceira pagina</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sapiente error debitis, dignissimos mollitia neque quo! Optio autem impedit, modi corrupti, fugiat amet consequatur, sed nulla quod nesciunt minima dolorem?</p>
+    
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma opção a cima</h1><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, illo aliquid! Quod, optio in. Id, est suscipit harum earum, enim labore accusamus quia nesciunt provident, amet sunt a reiciendis! Eum.</p>" 
+    >
+        <p>Seu navegador não é compativel</p>
+        
+    </iframe>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam hic voluptatem quibusdam fugit tempora quis? Autem, eaque iusto officia dolorem, illo voluptatum maxime placeat distinctio provident ullam quo voluptatem explicabo?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis praesentium tenetur, nesciunt fugit dicta incidunt neque! Dicta voluptatibus inventore officiis voluptates veritatis error praesentium quasi nemo quis quibusdam! Officiis, tempora.</p>
+</body>
+</html>
